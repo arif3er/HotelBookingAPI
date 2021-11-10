@@ -1,0 +1,16 @@
+spring :
+  profiles:
+    active : prod
+
+campaign :
+  campaignDay : 10
+
+---
+
+spring :
+  config :
+    activate :
+      on-profile: stage
+
+campaign :
+  campaignDay : 5
